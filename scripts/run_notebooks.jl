@@ -34,6 +34,56 @@ function notebook_paths(filter_names::Vector{String}=String[])
     [joinpath(NB_DIR, f) for f in files if any(n -> occursin(n, f), filter_names)]
 end
 
+# ── rendering Pluto's structured outputs to HTML ─────────────────────────────
+# Pluto does not hand the *value* back for its own display MIMEs, it hands back the
+# payload it would send to the browser (`Dict(:rows => …)`, `Dict(:elements => …)`).
+# For a static printout we turn that payload back into HTML tables: a `Table` becomes
+# a table of rows, a `Tree` a two-column key → value table, and the leaves are
+# `(text, MIME)` pairs.
+escape_html(s) = replace(string(s), '&' => "&amp;", '<' => "&lt;", '>' => "&gt;")
+
+function render_pluto_value(x)
+    if x isa AbstractDict
+        render_pluto_object(x)
+    elseif x isa Tuple && length(x) == 2 && x[2] isa MIME
+        # Pluto wraps a value together with the MIME it was formatted for; when that
+        # value is itself a table or a tree, keep rendering it as such.
+        render_pluto_value(x[1])
+    elseif x isa Pair
+        string(escape_html(x.first), " → ", render_pluto_value(x.second))
+    else
+        escape_html(string(x))
+    end
+end
+
+function render_pluto_object(x)
+    if x isa AbstractDict && haskey(x, :rows)
+        io = IOBuffer()
+        println(io, "<table><tbody>")
+        for row in x[:rows]
+            index, values = row isa Tuple && length(row) == 2 ? (row[1], row[2]) : ("", row)
+            print(io, "<tr><th>", escape_html(index), "</th>")
+            for v in (values isa AbstractVector || values isa Tuple ? values : [values])
+                print(io, "<td>", render_pluto_value(v), "</td>")
+            end
+            println(io, "</tr>")
+        end
+        println(io, "</tbody></table>")
+        return String(take!(io))
+    elseif x isa AbstractDict && haskey(x, :elements)
+        io = IOBuffer()
+        println(io, "<table class=\"kv\"><tbody>")
+        for e in x[:elements]
+            key = e isa Pair ? e.first : (e isa Tuple ? e[1] : "")
+            val = e isa Pair ? e.second : (e isa Tuple ? e[2] : e)
+            println(io, "<tr><th>", escape_html(key), "</th><td>", render_pluto_value(val), "</td></tr>")
+        end
+        println(io, "</tbody></table>")
+        return String(take!(io))
+    end
+    escape_html(string(x))
+end
+
 "Run one notebook and return its cells as dictionaries."
 function run_notebook(path::AbstractString)
     session = Pluto.ServerSession()
@@ -47,8 +97,13 @@ function run_notebook(path::AbstractString)
     cells = Dict{String,Any}[]
     for c in nb.cells
         body = c.output.body
+        mime = string(c.output.mime)
         payload = if body isa Vector{UInt8}
-            "base64:" * base64encode(body)
+            "base64:" * base64encode(body)          # 1. binary output (images)
+        elseif startswith(mime, "application/vnd.pluto")
+            # 2. Pluto's own structured outputs → HTML tables (see render_pluto_object)
+            mime = "text/html"
+            render_pluto_object(body)
         elseif body === nothing
             ""
         else
@@ -57,7 +112,7 @@ function run_notebook(path::AbstractString)
         push!(cells, Dict{String,Any}(
             "id" => string(c.cell_id),
             "code" => c.code,
-            "mime" => string(c.output.mime),
+            "mime" => mime,
             "body" => payload,
             "errored" => c.errored,
             "runtime_ms" => c.runtime === nothing ? 0 : round(Int, c.runtime / 1e6)))

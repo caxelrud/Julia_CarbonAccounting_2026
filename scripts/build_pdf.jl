@@ -55,9 +55,14 @@ escape_html(s) = replace(string(s), '&' => "&amp;", '<' => "&lt;", '>' => "&gt;"
     render_cell(cell) -> String
 
 One cell as HTML: its code in a `<pre>`, then its output — raw HTML when the cell
-rendered HTML (markdown cells, tables), an `<img>` when it is an image, plain text
-otherwise. A *failing* cell is printed as a failure: a printout that hides errors
-would be a lie.
+rendered HTML (markdown cells, tables), **inline SVG** for plots, a data-URI `<img>`
+for raster images, plain text otherwise. A *failing* cell is printed as a failure:
+a printout that hides errors would be a lie.
+
+Plots are inlined as SVG rather than referenced as an `<img>`: the vector graphics
+survive the PDF print at full quality, need no decoding step, and cannot end up
+mis-labelled (a data URI whose declared MIME does not match its payload renders as
+nothing at all).
 """
 function render_cell(cell)
     code = string(cell["code"])
@@ -66,14 +71,18 @@ function render_cell(cell)
     (occursin("Pkg.activate", code) && ncodeunits(code) < 400) && return ""
     io = IOBuffer()
     println(io, "<div class=\"cell\"><pre class=\"code\"><code>", escape_html(code), "</code></pre>")
-    body, mime = string(cell["body"]), string(cell["mime"])
+    body, mime = string(cell["body"]), lowercase(string(cell["mime"]))
     println(io, "<div class=\"output\">")
     if cell["errored"]
         println(io, "<div class=\"error\"><strong>✗ this cell failed during the build</strong><br>",
                 escape_html(first(body, 600)), "</div>")
+    elseif startswith(body, "base64:") && occursin("svg", mime)
+        svg = replace(String(base64decode(body[8:end])), r"<\?xml[^>]*\?>" => "")
+        println(io, "<div class=\"fig\">", svg, "</div>")
     elseif startswith(body, "base64:")
-        t = endswith(mime, "svg") ? "image/svg+xml" : "image/png"
-        println(io, "<img src=\"data:", t, ";base64,", body[8:end], "\">")
+        println(io, "<img class=\"fig\" src=\"data:", mime, ";base64,", body[8:end], "\">")
+    elseif occursin("svg", mime) && occursin("<svg", body)
+        println(io, "<div class=\"fig\">", replace(body, r"<\?xml[^>]*\?>" => ""), "</div>")
     elseif startswith(mime, "image/")
         println(io, "<p class=\"muted\">[image output ", mime, "]</p>")
     elseif startswith(mime, "text/html") || startswith(body, "<svg") ||
@@ -108,7 +117,11 @@ pre.text { background: #fbfbfc; border: 1px solid #eceff3; padding: 5px 8px; mar
 .output table { border-collapse: collapse; font-size: 8.6pt; margin: 2px 0; }
 .output th, .output td { border: 1px solid #d5dae0; padding: 2px 5px; }
 .output th { background: #eef2f7; }
+.output table.kv th { background: #f8fafc; text-align: left; font-weight: 600;
+                      white-space: nowrap; }
 .output img, .output svg { max-width: 100%; }
+.fig { margin: 4px 0 8px 0; page-break-inside: avoid; }
+.fig svg { width: 100% !important; height: auto !important; }
 .error { background: #fff5f5; border: 1px solid #fc8181; color: #822727; padding: 6px 8px;
          font-size: 9pt; }
 .meta { color: #666; font-size: 9pt; }
@@ -201,6 +214,32 @@ function stamp_page_numbers(pdf_path)
     end
 end
 
+"""
+    check_render(html, pages)
+
+Verify the rendered document before it is printed: every cell that produced an image MIME
+must have produced a figure in the HTML, and no raw Pluto payload (`Dict{Symbol, Any}`)
+may survive into the output.
+
+This guard exists because the first release of this document was wrong in a way nobody
+could see: the plot payloads were written as `data:image/png;base64,<SVG>` — an image
+whose declared type did not match its content renders as *nothing*, so the PDF looked
+complete, with all the code and all the tables, and had no figures in it at all. A silent
+failure in the record of an execution is the worst kind; the build now refuses to print it.
+"""
+function check_render(html, pages)
+    figures = length(findall("<svg", html)) + length(findall("<img class=\"fig\"", html))
+    tables = length(findall("<table", html))
+    leaks = length(findall("Dict{Symbol, Any}", html))
+    expected = length([c for p in pages for c in p.data["cells"]
+                       if startswith(string(c["mime"]), "image/")])
+    leaks == 0 || error("$(leaks) raw Pluto payload(s) leaked into the printout — " *
+                        "render_pluto_object should have turned them into tables")
+    figures >= expected || error("$(expected) cell(s) produced an image but only " *
+                                 "$(figures) figure(s) were rendered")
+    (; figures, tables, expected)
+end
+
 function main(args)
     if !("--no-run" in args)
         run(`julia --project=$ROOT --startup-file=no $(joinpath(ROOT, "scripts", "run_notebooks.jl"))`)
@@ -209,6 +248,8 @@ function main(args)
     isempty(pages) && error("no printouts in $(OUT_DIR) — run scripts/run_notebooks.jl first")
     ensure_mathjax()
     html = render_html(pages)
+    st = check_render(html, pages)
+    @info "printout verified — no silent losses" figures=st.figures tables=st.tables
     mkpath(dirname(HTML_OUT))
     write(HTML_OUT, html)
     @info "rendered HTML" file=HTML_OUT kb=round(Int, length(html) / 1024)

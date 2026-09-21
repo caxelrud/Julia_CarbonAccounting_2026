@@ -129,6 +129,14 @@ consequences:
   blank line, because Pluto's loader expects a `\n\n` cell suffix.
 * `docs/assets/mathjax/tex-svg.js` is bundled, so the PDF build needs no network:
   formulas are rendered as self-contained SVG.
+* Plots reach the PDF as **inline SVG** (not as `<img>` data URIs): vector graphics
+  survive the print at full quality, and a data URI whose declared type does not match
+  its payload renders as nothing at all — the build therefore verifies, before printing,
+  that every cell which produced an image produced a figure, and that no raw Pluto
+  payload leaked into the text (`check_render`).
+* Pluto's structured outputs (tables, tuples, named tuples) are turned back into HTML
+  tables by `render_pluto_object`, so a printout shows the reader a table where the
+  notebook showed a table — not the payload that the frontend would have rendered.
 * The synthetic data set is regenerated identically on every machine
   (`MersenneTwister(2026)`), and the PDF is built from the *captured* notebook
   outputs, never from re-executed code.

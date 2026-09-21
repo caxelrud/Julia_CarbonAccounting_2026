@@ -118,10 +118,15 @@ end
 begin
 	bycat = sort(scope3.by_category, :E, rev=true)
 	bycat.category = [first(c, 28) for c in bycat.category]
-	plt = bar(bycat.category, bycat.E, legend=false, xrotation=20, ylabel="tCO₂e",
-	          title="Scope 3 by category (sorted)", color=:steelblue)
-	save_figure(plt, "06_scope3_categories"; saver=savefig)
 	bycat
+end
+
+# ╔═╡ 00000606-0000-0000-0000-0000000000f0
+begin
+	plt_cat = bar(bycat.category, bycat.E, legend=false, xrotation=20, ylabel="tCO₂e",
+	              title="Scope 3 by category (sorted)", color=:steelblue)
+	save_figure(plt_cat, "06_scope3_categories"; saver=savefig)
+	plt_cat
 end
 
 # ╔═╡ 00000606-0000-0000-0000-000000000015

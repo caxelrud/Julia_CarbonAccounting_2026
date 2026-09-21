@@ -63,12 +63,17 @@ begin
 	                      date=Date(2024, 12, 31)).value for c in countries]
 	res = [resolve_factor(lib, SOURCE_RULES["electricity"]; region=c,
 	                      date=Date(2024, 12, 31), market=:market).value for c in countries]
-	plt_grid = bar(countries, [loc res], bar_position=:dodge,
-	                 label=["location based" "residual mix (market)"],
-	                 title="Grid intensity vs residual mix", ylabel="kgCO₂e/kWh")
-	save_figure(plt_grid, "05_grid_vs_residual"; saver=savefig)
 	DataFrame(country=countries, EF_grid=loc, EF_residual=res,
 	          premium_pct=[round(100 * (r / l - 1); digits=1) for (l, r) in zip(loc, res)])
+end
+
+# ╔═╡ 00000505-0000-0000-0000-000000000008
+begin
+	plt_grid = bar(countries, [loc res], bar_position=:dodge,
+	               label=["location based" "residual mix (market)"],
+	               title="Grid intensity vs residual mix", ylabel="kgCO₂e/kWh")
+	save_figure(plt_grid, "05_grid_vs_residual"; saver=savefig)
+	plt_grid
 end
 
 # ╔═╡ 00000505-0000-0000-0000-000000000008
@@ -112,10 +117,15 @@ begin
 	plt_dual = bar(["location based", "market based"],
 	               reshape([scope2.E_loc, scope2.E_mkt], 2, 1),
 	               bar_position=:dodge,
-	                 label="", legend=false, ylabel="tCO₂e",
-	                 title="Scope 2 of the portfolio (operational control)",
-	                 color=[:seagreen :darkseagreen])
+	               label="", legend=false, ylabel="tCO₂e",
+	               title="Scope 2 of the portfolio (operational control)",
+	               color=[:seagreen :darkseagreen])
 	save_figure(plt_dual, "05_scope2_dual"; saver=savefig)
+	plt_dual
+end
+
+# ╔═╡ 00000505-0000-0000-0000-000000000016
+begin
 	println("E_Scope2 location : ", round(scope2.E_loc; digits=1), " tCO₂e")
 	println("E_Scope2 market   : ", round(scope2.E_mkt; digits=1), " tCO₂e")
 	println("purchased electricity : ", round(scope2.C_elec; digits=1), " MWh")
