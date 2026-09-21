@@ -1,0 +1,36 @@
+# Julia
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+/docs/build/
+/build/
+deps/deps.jl
+
+# Pluto autosave / backup files
+*.jl.1111
+*.jl.1112
+*.jl.1113
+*.jl.1114
+*.jl.1115
+*.jl.1116
+*.jl.1117
+*.jl.1118
+*.jl.1119
+*.jl.2222
+*.jl.2799
+*.jl.3101
+Pluto_notebooks/
+notebooks/*.jl.ram
+notebooks/*.jl.hash
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/settings.json
+
+# Secrets and local runtime artefacts
+.env
+secrets/
+run/
+tmp/

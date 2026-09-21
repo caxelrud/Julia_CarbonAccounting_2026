@@ -1,0 +1,7 @@
+entity,site,country,equity_share,production_t,revenue_usd,employees
+AcmeIndustrial_SA,SAO-01,BRA,1.0,2.45e6,7.8e8,640
+AcmeIndustrial_SA,SAO-02,BRA,1.0,1.18e6,3.9e8,310
+AcmeEurope_GmbH,HAM-01,DEU,1.0,980000.0,6.2e8,380
+AcmeEurope_GmbH,ROT-02,NLD,0.6,540000.0,3.0e8,150
+AcmeAfrica_Pty,JNB-01,ZAF,0.74,760000.0,2.1e8,420
+AcmeAsia_Co,SHA-03,CHN,0.45,620000.0,1.8e8,260

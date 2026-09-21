@@ -1,0 +1,62 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        julia-version: ['1.11', '1.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: julia-actions/setup-julia@v2
+        with:
+          version: ${{ matrix.julia-version }}
+      - uses: julia-actions/cache@v2
+      - name: Instantiate the pinned environment
+        run: julia --project=. -e 'using Pkg; Pkg.instantiate()'
+      - name: Generate the synthetic data set
+        run: julia --project=. scripts/make_data.jl
+      - name: Run the test suite
+        run: julia --project=. test/runtests.jl
+      - name: Run every notebook headlessly (builds the printout data)
+        run: julia --project=. scripts/run_notebooks.jl
+      - name: Inspect the notebook cells (fails the job on any failing cell)
+        shell: bash
+        run: |
+          julia --project=. scripts/check_notebooks.jl | tee build/check.txt
+          grep -q "errored: 0" build/check.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: notebook-printouts-${{ matrix.os }}-${{ matrix.julia-version }}
+          path: build/printout
+
+  pdf:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: julia-actions/setup-julia@v2
+        with:
+          version: '1.12'
+      - uses: julia-actions/cache@v2
+      - name: Install Chromium and the Python PDF helpers
+        run: |
+          sudo apt-get update && sudo apt-get install -y chromium-browser
+          python3 -m pip install --upgrade pypdf reportlab
+      - name: Instantiate, generate data, run notebooks, print the PDF
+        run: |
+          julia --project=. -e 'using Pkg; Pkg.instantiate()'
+          julia --project=. scripts/make_data.jl
+          julia --project=. scripts/build_pdf.jl
+      - uses: actions/upload-artifact@v4
+        with:
+          name: CarbonAccounting-Notebooks-PDF
+          path: docs/CarbonAccounting_Notebooks.pdf

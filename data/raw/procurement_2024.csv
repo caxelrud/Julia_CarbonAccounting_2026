@@ -1,0 +1,43 @@
+Tipo,PO_id,Site,Fornecedor,Description,Amount,Currency,Year
+purchased_goods_spend,PO-01001,SAO-02,Supplier 101,corrugated packaging,105598,BRL,2024
+purchased_goods_spend,PO-01002,ROT-02,Supplier 102,IT consulting,187760,EUR,2024
+purchased_goods_spend,PO-01003,HAM-01,Supplier 103,facility management,50157,EUR,2024
+purchased_goods_spend,PO-01004,HAM-01,Supplier 104,stainless steel plate,939681,EUR,2024
+purchased_goods_spend,PO-01005,SHA-03,Supplier 105,industrial chemicals,275639,CNY,2024
+purchased_goods_spend,PO-01006,SAO-01,Supplier 106,cement bulk,663760,BRL,2024
+purchased_goods_spend,PO-01007,HAM-01,Supplier 107,cement bulk,192899,EUR,2024
+purchased_goods_spend,PO-01008,SAO-01,Supplier 108,polymer resin,431578,BRL,2024
+purchased_goods_spend,PO-01009,SHA-03,Supplier 109,industrial chemicals,309471,CNY,2024
+purchased_goods_spend,PO-01010,SAO-02,Supplier 110,cold-chain logistics,94054,BRL,2024
+purchased_goods_spend,PO-01011,ROT-02,Supplier 111,agricultural fertiliser,187024,EUR,2024
+purchased_goods_spend,PO-01012,SAO-01,Supplier 112,mining explosives,119987,BRL,2024
+purchased_goods_spend,PO-01013,ROT-02,Supplier 113,cement bulk,793666,EUR,2024
+purchased_goods_spend,PO-01014,SAO-02,Supplier 114,polymer resin,397389,BRL,2024
+purchased_goods_spend,PO-01015,ROT-02,Supplier 115,corrugated packaging,120407,EUR,2024
+purchased_goods_spend,PO-01016,HAM-01,Supplier 116,facility management,162997,EUR,2023
+purchased_goods_spend,PO-01017,ROT-02,Supplier 117,pump overhaul,148495,EUR,2024
+purchased_goods_spend,PO-01018,SAO-01,Supplier 118,IT consulting,238940,BRL,2024
+purchased_goods_spend,PO-01019,ROT-02,Supplier 119,stainless steel plate,712534,EUR,2024
+purchased_goods_spend,PO-01020,SAO-02,Supplier 120,pharmaceutical supplies,65137,BRL,2024
+purchased_goods_spend,PO-01021,SAO-01,Supplier 121,polymer resin,313524,BRL,2023
+purchased_goods_spend,PO-01022,SAO-01,Supplier 122,polymer resin,326640,BRL,2024
+purchased_goods_spend,PO-01023,SAO-02,Supplier 123,cotton fabric,86739,BRL,2024
+purchased_goods_spend,PO-01024,HAM-01,Supplier 124,cement bulk,521329,EUR,2023
+purchased_goods_spend,PO-01025,SAO-01,Supplier 125,pharmaceutical supplies,145569,BRL,2024
+purchased_goods_spend,PO-01026,SAO-01,Supplier 126,facility management,122035,BRL,2024
+purchased_goods_spend,PO-01027,HAM-01,Supplier 127,cold-chain logistics,260812,EUR,2024
+purchased_goods_spend,PO-01028,ROT-02,Supplier 128,agricultural fertiliser,142564,EUR,2023
+purchased_goods_spend,PO-01029,JNB-01,Supplier 129,cement bulk,741329,ZAR,2024
+purchased_goods_spend,PO-01030,SHA-03,Supplier 130,polymer resin,680276,CNY,2024
+purchased_goods_spend,PO-01031,SAO-02,Supplier 131,cement bulk,859695,BRL,2024
+purchased_goods_spend,PO-01032,ROT-02,Supplier 132,stainless steel plate,429393,EUR,2024
+purchased_goods_spend,PO-01033,HAM-01,Supplier 133,agricultural fertiliser,176314,EUR,2024
+purchased_goods_spend,PO-01034,JNB-01,Supplier 134,mining explosives,171854,ZAR,2024
+purchased_goods_spend,PO-01035,HAM-01,Supplier 135,mining explosives,229771,EUR,2024
+purchased_goods_spend,PO-01036,HAM-01,Supplier 136,facility management,73600,EUR,2024
+purchased_goods_spend,PO-01037,ROT-02,Supplier 137,agricultural fertiliser,79587,EUR,2024
+purchased_goods_spend,PO-01038,ROT-02,Supplier 138,pharmaceutical supplies,134776,EUR,2024
+purchased_goods_spend,PO-01039,SHA-03,Supplier 139,electronic control unit,297520,CNY,2024
+purchased_goods_spend,PO-01040,JNB-01,Supplier 140,cement bulk,587507,ZAR,2024
+purchased_goods_spend,PO-01041,SHA-03,Supplier 141,electronic control unit,267510,CNY,2023
+purchased_goods_spend,PO-01042,SAO-01,Supplier 142,facility management,79200,BRL,2024

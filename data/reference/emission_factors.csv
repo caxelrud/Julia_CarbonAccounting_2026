@@ -1,0 +1,217 @@
+ef_id,library,version,category,item,gas,value,unit,region,gwp,valid_from,valid_to,DQ,uncertainty,source
+natural_gas_natural_gas_CO2_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,natural_gas,natural_gas,CO2,56.1,kgCO₂/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.03,IPCC 2006 Vol.2 Tab.2.2
+natural_gas_natural_gas_CH4_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,natural_gas,natural_gas,CH4,0.001,kgCH₄/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.5,IPCC 2006 Vol.2 Tab.2.2
+natural_gas_natural_gas_N2O_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,natural_gas,natural_gas,N2O,0.0001,kgN₂O/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.5,IPCC 2006 Vol.2 Tab.2.2
+fuel_oil_fuel_oil_CO2_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,fuel_oil,fuel_oil,CO2,77.4,kgCO₂/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.03,IPCC 2006 Vol.2 Tab.2.2
+fuel_oil_fuel_oil_CH4_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,fuel_oil,fuel_oil,CH4,0.003,kgCH₄/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.5,IPCC 2006 Vol.2 Tab.2.2
+fuel_oil_fuel_oil_N2O_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,fuel_oil,fuel_oil,N2O,0.0006,kgN₂O/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.5,IPCC 2006 Vol.2 Tab.2.2
+diesel_stationary_diesel_stationary_CO2_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,diesel_stationary,diesel_stationary,CO2,74.1,kgCO₂/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.02,IPCC 2006 Vol.2 Tab.2.2
+diesel_stationary_diesel_stationary_CH4_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,diesel_stationary,diesel_stationary,CH4,0.003,kgCH₄/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.5,IPCC 2006 Vol.2 Tab.2.2
+diesel_stationary_diesel_stationary_N2O_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,diesel_stationary,diesel_stationary,N2O,0.0006,kgN₂O/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.5,IPCC 2006 Vol.2 Tab.2.2
+lpg_lpg_CO2_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,lpg,lpg,CO2,63.1,kgCO₂/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.03,IPCC 2006 Vol.2 Tab.2.2
+lpg_lpg_CH4_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,lpg,lpg,CH4,0.001,kgCH₄/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.5,IPCC 2006 Vol.2 Tab.2.2
+lpg_lpg_N2O_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,lpg,lpg,N2O,0.0001,kgN₂O/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.5,IPCC 2006 Vol.2 Tab.2.2
+coal_coal_CO2_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,coal,coal,CO2,94.6,kgCO₂/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.03,IPCC 2006 Vol.2 Tab.2.2
+coal_coal_CH4_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,coal,coal,CH4,0.01,kgCH₄/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.3,IPCC 2006 Vol.2 Tab.2.2
+coal_coal_N2O_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,coal,coal,N2O,0.0015,kgN₂O/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.3,IPCC 2006 Vol.2 Tab.2.2
+biomass_biomass_CO2_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,biomass,biomass,CO2,0.0,kgCO₂/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.05,IPCC 2006 (biogenic CO₂ = memo)
+biomass_biomass_CH4_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,biomass,biomass,CH4,0.03,kgCH₄/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.5,IPCC 2006 (biogenic CO₂ = memo)
+biomass_biomass_N2O_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,biomass,biomass,N2O,0.004,kgN₂O/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.5,IPCC 2006 (biogenic CO₂ = memo)
+blast_furnace_gas_blast_furnace_gas_CO2_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,blast_furnace_gas,blast_furnace_gas,CO2,259.6,kgCO₂/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.05,IPCC 2006 Vol.2 Tab.2.2
+blast_furnace_gas_blast_furnace_gas_CH4_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,blast_furnace_gas,blast_furnace_gas,CH4,0.001,kgCH₄/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.5,IPCC 2006 Vol.2 Tab.2.2
+blast_furnace_gas_blast_furnace_gas_N2O_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,blast_furnace_gas,blast_furnace_gas,N2O,0.0001,kgN₂O/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.5,IPCC 2006 Vol.2 Tab.2.2
+mobile_combustion_diesel_fleet_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,mobile_combustion,diesel_fleet,CO2e,2.6998,kgCO₂e/L,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.03,DEFRA 2023 diesel (average biofuel blend)
+mobile_combustion_gasoline_fleet_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,mobile_combustion,gasoline_fleet,CO2e,2.3143,kgCO₂e/L,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.03,DEFRA 2023 petrol (average biofuel blend)
+mobile_combustion_fuel_oil_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,mobile_combustion,fuel_oil,CO2e,3.1797,kgCO₂e/L,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.03,DEFRA 2023 burning oil
+mobile_combustion_aviation_fuel_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,mobile_combustion,aviation_fuel,CO2e,3.15,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.04,DEFRA 2023 aviation turbine fuel
+mobile_combustion_marine_fuel_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,mobile_combustion,marine_fuel,CO2e,3.206,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.05,DEFRA 2023 marine diesel/gas oil
+electricity_grid_average_CO2e_BRA_2026.1,CarbonAccounting built-in,2026.1,electricity,grid_average,CO2e,0.087,kgCO₂e/kWh,BRA,AR6,2024-01-01,2030-12-31,3,0.1,IEA/Ember 2023 grid intensity
+electricity_grid_average_CO2e_DEU_2026.1,CarbonAccounting built-in,2026.1,electricity,grid_average,CO2e,0.38,kgCO₂e/kWh,DEU,AR6,2024-01-01,2030-12-31,3,0.05,IEA/Ember 2023 grid intensity
+electricity_grid_average_CO2e_ZAF_2026.1,CarbonAccounting built-in,2026.1,electricity,grid_average,CO2e,0.95,kgCO₂e/kWh,ZAF,AR6,2024-01-01,2030-12-31,3,0.06,IEA/Ember 2023 grid intensity
+electricity_grid_average_CO2e_USA_2026.1,CarbonAccounting built-in,2026.1,electricity,grid_average,CO2e,0.369,kgCO₂e/kWh,USA,AR6,2024-01-01,2030-12-31,3,0.06,IEA/Ember 2023 grid intensity
+electricity_grid_average_CO2e_CHN_2026.1,CarbonAccounting built-in,2026.1,electricity,grid_average,CO2e,0.58,kgCO₂e/kWh,CHN,AR6,2024-01-01,2030-12-31,3,0.08,IEA/Ember 2023 grid intensity
+electricity_grid_average_CO2e_NLD_2026.1,CarbonAccounting built-in,2026.1,electricity,grid_average,CO2e,0.328,kgCO₂e/kWh,NLD,AR6,2024-01-01,2030-12-31,3,0.05,IEA/Ember 2023 grid intensity
+electricity_grid_average_CO2e_ESP_2026.1,CarbonAccounting built-in,2026.1,electricity,grid_average,CO2e,0.19,kgCO₂e/kWh,ESP,AR6,2024-01-01,2030-12-31,3,0.06,IEA/Ember 2023 grid intensity
+electricity_grid_average_CO2e_FRA_2026.1,CarbonAccounting built-in,2026.1,electricity,grid_average,CO2e,0.056,kgCO₂e/kWh,FRA,AR6,2024-01-01,2030-12-31,3,0.05,IEA/Ember 2023 grid intensity
+electricity_grid_average_CO2e_GBR_2026.1,CarbonAccounting built-in,2026.1,electricity,grid_average,CO2e,0.207,kgCO₂e/kWh,GBR,AR6,2024-01-01,2030-12-31,3,0.05,IEA/Ember 2023 grid intensity
+electricity_grid_average_CO2e_POL_2026.1,CarbonAccounting built-in,2026.1,electricity,grid_average,CO2e,0.662,kgCO₂e/kWh,POL,AR6,2024-01-01,2030-12-31,3,0.05,IEA/Ember 2023 grid intensity
+electricity_grid_average_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,electricity,grid_average,CO2e,0.436,kgCO₂e/kWh,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.1,IEA/Ember 2023 grid intensity
+electricity_residual_mix_CO2e_BRA_2026.1,CarbonAccounting built-in,2026.1,electricity,residual_mix,CO2e,0.15,kgCO₂e/kWh,BRA,AR6,2024-01-01,2030-12-31,3,0.15,AIB European residual mix / national disclosure 2023
+electricity_residual_mix_CO2e_DEU_2026.1,CarbonAccounting built-in,2026.1,electricity,residual_mix,CO2e,0.569,kgCO₂e/kWh,DEU,AR6,2024-01-01,2030-12-31,3,0.15,AIB European residual mix / national disclosure 2023
+electricity_residual_mix_CO2e_ZAF_2026.1,CarbonAccounting built-in,2026.1,electricity,residual_mix,CO2e,1.1,kgCO₂e/kWh,ZAF,AR6,2024-01-01,2030-12-31,3,0.15,AIB European residual mix / national disclosure 2023
+electricity_residual_mix_CO2e_USA_2026.1,CarbonAccounting built-in,2026.1,electricity,residual_mix,CO2e,0.52,kgCO₂e/kWh,USA,AR6,2024-01-01,2030-12-31,3,0.15,AIB European residual mix / national disclosure 2023
+electricity_residual_mix_CO2e_CHN_2026.1,CarbonAccounting built-in,2026.1,electricity,residual_mix,CO2e,0.79,kgCO₂e/kWh,CHN,AR6,2024-01-01,2030-12-31,3,0.15,AIB European residual mix / national disclosure 2023
+electricity_residual_mix_CO2e_NLD_2026.1,CarbonAccounting built-in,2026.1,electricity,residual_mix,CO2e,0.49,kgCO₂e/kWh,NLD,AR6,2024-01-01,2030-12-31,3,0.15,AIB European residual mix / national disclosure 2023
+electricity_residual_mix_CO2e_ESP_2026.1,CarbonAccounting built-in,2026.1,electricity,residual_mix,CO2e,0.29,kgCO₂e/kWh,ESP,AR6,2024-01-01,2030-12-31,3,0.15,AIB European residual mix / national disclosure 2023
+electricity_residual_mix_CO2e_GBR_2026.1,CarbonAccounting built-in,2026.1,electricity,residual_mix,CO2e,0.32,kgCO₂e/kWh,GBR,AR6,2024-01-01,2030-12-31,3,0.15,AIB European residual mix / national disclosure 2023
+electricity_residual_mix_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,electricity,residual_mix,CO2e,0.62,kgCO₂e/kWh,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.15,AIB European residual mix / national disclosure 2023
+ppa_electricity_ppa_renewable_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,ppa_electricity,ppa_renewable,CO2e,0.0,kgCO₂e/kWh,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.0,GHG Protocol Scope 2 Guidance (hierarchy)
+ppa_electricity_green_tariff_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,ppa_electricity,green_tariff,CO2e,0.05,kgCO₂e/kWh,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.5,GHG Protocol Scope 2 Guidance
+ppa_electricity_unclaimed_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,ppa_electricity,unclaimed,CO2e,0.62,kgCO₂e/kWh,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.15,GHG Protocol Scope 2 Guidance
+steam_purchased_steam_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,steam,purchased_steam,CO2e,66.0,kgCO₂e/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.1,"gas boiler, η_b = 0.85 (56.1/0.85)"
+heat_district_heat_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,heat,district_heat,CO2e,70.0,kgCO₂e/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.2,"district heating mix, GLOBAL default"
+cooling_purchased_cooling_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,cooling,purchased_cooling,CO2e,30.0,kgCO₂e/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.25,"electric chiller, COP 3.5, grid mix"
+refrigerant_R134a_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,refrigerant,R134a,CO2e,1430.0,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.1,IPCC AR5 GWP₁₀₀
+refrigerant_R410A_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,refrigerant,R410A,CO2e,2088.0,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.1,IPCC AR5 GWP₁₀₀
+refrigerant_R404A_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,refrigerant,R404A,CO2e,3922.0,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.1,IPCC AR5 GWP₁₀₀
+refrigerant_R22_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,refrigerant,R22,CO2e,1810.0,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.1,IPCC AR5 GWP₁₀₀
+refrigerant_R32_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,refrigerant,R32,CO2e,675.0,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.1,IPCC AR5 GWP₁₀₀
+refrigerant_R744_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,refrigerant,R744,CO2e,1.0,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.05,IPCC AR5 GWP₁₀₀
+refrigerant_NH3_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,refrigerant,NH3,CO2e,0.0,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.05,IPCC AR5 GWP₁₀₀
+ch4_vent_ch4_vented_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,ch4_vent,ch4_vented,CO2e,21.36,kgCO₂e/m³(n),GLOBAL,AR6,2024-01-01,2030-12-31,3,0.4,ρ_CH₄ · GWP₁₀₀ = 0.7168 kg/m³ × 29.8
+ldar_component_leak_CH4_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,ldar,component_leak,CH4,0.5,kgCH₄/component,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.6,EPA 40 CFR 98 Subpart W component-level average
+compressor_seal_seal_loss_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,compressor_seal,seal_loss,CO2e,25.0,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.6,industry-average seal-loss factor
+flaring_flare_gas_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,flaring,flare_gas,CO2e,1.85,kgCO₂e/m³(n),GLOBAL,AR6,2024-01-01,2030-12-31,2,0.25,"typical flare-gas composition, CC ≈ 0.65 tC/t"
+process_clinker_clinker_CO2_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,process_clinker,clinker,CO2,0.525,tCO₂/t,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.02,IPCC 2006 Vol.3 Tab.2.1 (0.51–0.53)
+process_lime_lime_CO2_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,process_lime,lime,CO2,0.785,tCO₂/t,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.03,IPCC 2006 Vol.3 Tab.2.2
+process_nitric_acid_nitric_acid_N2O_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,process_nitric_acid,nitric_acid,N2O,5.7,kgN₂O/t,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.4,"US EPA EF Hub, nitric acid (uncontrolled)"
+process_ammonia_ammonia_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,process_ammonia,ammonia,CO2e,1.9,tCO₂e/t,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.15,IPCC 2006 Vol.3 (feedstock + fuel)
+process_aluminium_aluminium_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,process_aluminium,aluminium,CO2e,1.6,tCO₂e/t,GLOBAL,AR6,2024-01-01,2030-12-31,2,0.2,"IPCC 2006 Vol.3, anode + PFC (CF₄/C₂F₆)"
+fuel_energy_upstream_natural_gas_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,fuel_energy_upstream,natural_gas,CO2e,8.55,kgCO₂e/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.2,DEFRA 2023 well-to-tank factors
+fuel_energy_upstream_diesel_fleet_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,fuel_energy_upstream,diesel_fleet,CO2e,16.2,kgCO₂e/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.2,DEFRA 2023 well-to-tank factors
+fuel_energy_upstream_gasoline_fleet_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,fuel_energy_upstream,gasoline_fleet,CO2e,15.6,kgCO₂e/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.2,DEFRA 2023 well-to-tank factors
+fuel_energy_upstream_coal_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,fuel_energy_upstream,coal,CO2e,5.5,kgCO₂e/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.25,DEFRA 2023 well-to-tank factors
+fuel_energy_upstream_aviation_fuel_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,fuel_energy_upstream,aviation_fuel,CO2e,13.5,kgCO₂e/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.25,DEFRA 2023 well-to-tank factors
+fuel_energy_upstream_electricity_wtt_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,fuel_energy_upstream,electricity_wtt,CO2e,0.045,kgCO₂e/kWh,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.3,DEFRA 2023 well-to-tank factors
+upstream_transport_hgv_diesel_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_transport,hgv_diesel,CO2e,0.107,kgCO₂e/t·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.15,DEFRA 2023 HGV (average laden)
+upstream_transport_rail_freight_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_transport,rail_freight,CO2e,0.028,kgCO₂e/t·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.2,DEFRA 2023 rail freight
+upstream_transport_sea_container_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_transport,sea_container,CO2e,0.016,kgCO₂e/t·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.25,DEFRA 2023 container ship
+upstream_transport_air_freight_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_transport,air_freight,CO2e,0.602,kgCO₂e/t·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.2,DEFRA 2023 air freight (long haul)
+upstream_transport_inland_barge_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_transport,inland_barge,CO2e,0.033,kgCO₂e/t·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.25,DEFRA 2023 inland waterway
+downstream_transport_hgv_diesel_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_transport,hgv_diesel,CO2e,0.107,kgCO₂e/t·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.15,DEFRA 2023 HGV (average laden)
+downstream_transport_rail_freight_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_transport,rail_freight,CO2e,0.028,kgCO₂e/t·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.2,DEFRA 2023 rail freight
+downstream_transport_sea_container_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_transport,sea_container,CO2e,0.016,kgCO₂e/t·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.25,DEFRA 2023 container ship
+downstream_transport_air_freight_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_transport,air_freight,CO2e,0.602,kgCO₂e/t·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.2,DEFRA 2023 air freight (long haul)
+downstream_transport_inland_barge_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_transport,inland_barge,CO2e,0.033,kgCO₂e/t·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.25,DEFRA 2023 inland waterway
+business_travel_air_air_short_haul_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,business_travel_air,air_short_haul,CO2e,0.152,kgCO₂e/p·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.2,DEFRA 2023 domestic & short-haul air
+business_travel_air_air_long_haul_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,business_travel_air,air_long_haul,CO2e,0.111,kgCO₂e/p·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.2,DEFRA 2023 long-haul air
+business_travel_air_car_average_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,business_travel_air,car_average,CO2e,0.171,kgCO₂e/p·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.15,DEFRA 2023 average car
+business_travel_air_rail_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,business_travel_air,rail,CO2e,0.035,kgCO₂e/p·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.25,DEFRA 2023 national rail
+business_travel_air_bus_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,business_travel_air,bus,CO2e,0.104,kgCO₂e/p·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.25,DEFRA 2023 local bus
+business_travel_air_bicycle_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,business_travel_air,bicycle,CO2e,0.0,kgCO₂e/p·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.05,DEFRA 2023 active travel
+business_travel_land_air_short_haul_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,business_travel_land,air_short_haul,CO2e,0.152,kgCO₂e/p·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.2,DEFRA 2023 domestic & short-haul air
+business_travel_land_air_long_haul_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,business_travel_land,air_long_haul,CO2e,0.111,kgCO₂e/p·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.2,DEFRA 2023 long-haul air
+business_travel_land_car_average_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,business_travel_land,car_average,CO2e,0.171,kgCO₂e/p·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.15,DEFRA 2023 average car
+business_travel_land_rail_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,business_travel_land,rail,CO2e,0.035,kgCO₂e/p·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.25,DEFRA 2023 national rail
+business_travel_land_bus_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,business_travel_land,bus,CO2e,0.104,kgCO₂e/p·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.25,DEFRA 2023 local bus
+business_travel_land_bicycle_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,business_travel_land,bicycle,CO2e,0.0,kgCO₂e/p·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.05,DEFRA 2023 active travel
+employee_commuting_air_short_haul_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,employee_commuting,air_short_haul,CO2e,0.152,kgCO₂e/p·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.2,DEFRA 2023 domestic & short-haul air
+employee_commuting_air_long_haul_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,employee_commuting,air_long_haul,CO2e,0.111,kgCO₂e/p·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.2,DEFRA 2023 long-haul air
+employee_commuting_car_average_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,employee_commuting,car_average,CO2e,0.171,kgCO₂e/p·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.15,DEFRA 2023 average car
+employee_commuting_rail_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,employee_commuting,rail,CO2e,0.035,kgCO₂e/p·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.25,DEFRA 2023 national rail
+employee_commuting_bus_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,employee_commuting,bus,CO2e,0.104,kgCO₂e/p·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.25,DEFRA 2023 local bus
+employee_commuting_bicycle_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,employee_commuting,bicycle,CO2e,0.0,kgCO₂e/p·km,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.05,DEFRA 2023 active travel
+waste_landfill_msw_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,waste,landfill_msw,CO2e,0.467,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.35,US EPA WARM / DEFRA 2023 landfill
+waste_recycling_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,waste,recycling,CO2e,0.021,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.4,DEFRA 2023 open-loop recycling
+waste_incineration_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,waste,incineration,CO2e,0.021,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.4,DEFRA 2023 combustion of waste
+waste_composting_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,waste,composting,CO2e,0.008,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.5,DEFRA 2023 composting
+waste_wastewater_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,waste,wastewater,CO2e,0.27,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.5,IPCC 2006 Vol.5 wastewater
+end_of_life_landfill_msw_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,end_of_life,landfill_msw,CO2e,0.467,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.35,US EPA WARM / DEFRA 2023 landfill
+end_of_life_recycling_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,end_of_life,recycling,CO2e,0.021,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.4,DEFRA 2023 open-loop recycling
+end_of_life_incineration_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,end_of_life,incineration,CO2e,0.021,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.4,DEFRA 2023 combustion of waste
+end_of_life_composting_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,end_of_life,composting,CO2e,0.008,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.5,DEFRA 2023 composting
+end_of_life_wastewater_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,end_of_life,wastewater,CO2e,0.27,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.5,IPCC 2006 Vol.5 wastewater
+processing_sold_average_intermediate_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,processing_sold,average_intermediate,CO2e,0.35,kgCO₂e/kg,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.5,average intermediate-processing factor
+use_phase_average_energy_use_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,use_phase,average_energy_use,CO2e,62.0,kgCO₂e/GJ,GLOBAL,AR6,2024-01-01,2030-12-31,3,0.4,mixed energy carriers in the use phase
+purchased_goods_spend_steel_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,purchased_goods_spend,steel,CO2e,0.85,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, iron & steel"
+purchased_goods_spend_cement_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,purchased_goods_spend,cement,CO2e,0.65,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, cement"
+purchased_goods_spend_chemicals_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,purchased_goods_spend,chemicals,CO2e,0.42,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, basic chemicals"
+purchased_goods_spend_plastics_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,purchased_goods_spend,plastics,CO2e,0.55,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, plastics"
+purchased_goods_spend_electronics_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,purchased_goods_spend,electronics,CO2e,0.12,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, electronic components"
+purchased_goods_spend_services_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,purchased_goods_spend,services,CO2e,0.035,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, professional services"
+purchased_goods_spend_machinery_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,purchased_goods_spend,machinery,CO2e,0.18,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, machinery"
+purchased_goods_spend_paper_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,purchased_goods_spend,paper,CO2e,0.3,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, paper"
+purchased_goods_spend_food_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,purchased_goods_spend,food,CO2e,0.75,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, food products"
+purchased_goods_spend_textiles_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,purchased_goods_spend,textiles,CO2e,0.35,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, textiles"
+purchased_goods_spend_mining_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,purchased_goods_spend,mining,CO2e,0.4,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, mining"
+purchased_goods_spend_transport_services_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,purchased_goods_spend,transport_services,CO2e,0.35,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, transport"
+purchased_goods_spend_electricity_supply_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,purchased_goods_spend,electricity_supply,CO2e,0.8,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, electricity"
+purchased_goods_spend_construction_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,purchased_goods_spend,construction,CO2e,0.3,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, construction"
+purchased_goods_spend_motor_vehicles_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,purchased_goods_spend,motor_vehicles,CO2e,0.22,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, motor vehicles"
+purchased_goods_spend_pharmaceuticals_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,purchased_goods_spend,pharmaceuticals,CO2e,0.15,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, pharmaceuticals"
+purchased_goods_spend_agriculture_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,purchased_goods_spend,agriculture,CO2e,0.5,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, agriculture"
+capital_goods_steel_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,capital_goods,steel,CO2e,0.85,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, iron & steel"
+capital_goods_cement_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,capital_goods,cement,CO2e,0.65,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, cement"
+capital_goods_chemicals_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,capital_goods,chemicals,CO2e,0.42,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, basic chemicals"
+capital_goods_plastics_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,capital_goods,plastics,CO2e,0.55,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, plastics"
+capital_goods_electronics_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,capital_goods,electronics,CO2e,0.12,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, electronic components"
+capital_goods_services_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,capital_goods,services,CO2e,0.035,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, professional services"
+capital_goods_machinery_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,capital_goods,machinery,CO2e,0.18,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, machinery"
+capital_goods_paper_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,capital_goods,paper,CO2e,0.3,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, paper"
+capital_goods_food_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,capital_goods,food,CO2e,0.75,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, food products"
+capital_goods_textiles_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,capital_goods,textiles,CO2e,0.35,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, textiles"
+capital_goods_mining_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,capital_goods,mining,CO2e,0.4,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, mining"
+capital_goods_transport_services_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,capital_goods,transport_services,CO2e,0.35,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, transport"
+capital_goods_electricity_supply_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,capital_goods,electricity_supply,CO2e,0.8,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, electricity"
+capital_goods_construction_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,capital_goods,construction,CO2e,0.3,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, construction"
+capital_goods_motor_vehicles_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,capital_goods,motor_vehicles,CO2e,0.22,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, motor vehicles"
+capital_goods_pharmaceuticals_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,capital_goods,pharmaceuticals,CO2e,0.15,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, pharmaceuticals"
+capital_goods_agriculture_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,capital_goods,agriculture,CO2e,0.5,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, agriculture"
+upstream_leased_steel_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_leased,steel,CO2e,0.85,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, iron & steel"
+upstream_leased_cement_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_leased,cement,CO2e,0.65,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, cement"
+upstream_leased_chemicals_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_leased,chemicals,CO2e,0.42,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, basic chemicals"
+upstream_leased_plastics_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_leased,plastics,CO2e,0.55,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, plastics"
+upstream_leased_electronics_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_leased,electronics,CO2e,0.12,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, electronic components"
+upstream_leased_services_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_leased,services,CO2e,0.035,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, professional services"
+upstream_leased_machinery_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_leased,machinery,CO2e,0.18,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, machinery"
+upstream_leased_paper_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_leased,paper,CO2e,0.3,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, paper"
+upstream_leased_food_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_leased,food,CO2e,0.75,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, food products"
+upstream_leased_textiles_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_leased,textiles,CO2e,0.35,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, textiles"
+upstream_leased_mining_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_leased,mining,CO2e,0.4,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, mining"
+upstream_leased_transport_services_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_leased,transport_services,CO2e,0.35,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, transport"
+upstream_leased_electricity_supply_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_leased,electricity_supply,CO2e,0.8,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, electricity"
+upstream_leased_construction_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_leased,construction,CO2e,0.3,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, construction"
+upstream_leased_motor_vehicles_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_leased,motor_vehicles,CO2e,0.22,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, motor vehicles"
+upstream_leased_pharmaceuticals_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_leased,pharmaceuticals,CO2e,0.15,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, pharmaceuticals"
+upstream_leased_agriculture_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,upstream_leased,agriculture,CO2e,0.5,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, agriculture"
+downstream_leased_steel_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_leased,steel,CO2e,0.85,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, iron & steel"
+downstream_leased_cement_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_leased,cement,CO2e,0.65,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, cement"
+downstream_leased_chemicals_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_leased,chemicals,CO2e,0.42,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, basic chemicals"
+downstream_leased_plastics_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_leased,plastics,CO2e,0.55,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, plastics"
+downstream_leased_electronics_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_leased,electronics,CO2e,0.12,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, electronic components"
+downstream_leased_services_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_leased,services,CO2e,0.035,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, professional services"
+downstream_leased_machinery_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_leased,machinery,CO2e,0.18,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, machinery"
+downstream_leased_paper_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_leased,paper,CO2e,0.3,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, paper"
+downstream_leased_food_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_leased,food,CO2e,0.75,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, food products"
+downstream_leased_textiles_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_leased,textiles,CO2e,0.35,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, textiles"
+downstream_leased_mining_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_leased,mining,CO2e,0.4,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, mining"
+downstream_leased_transport_services_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_leased,transport_services,CO2e,0.35,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, transport"
+downstream_leased_electricity_supply_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_leased,electricity_supply,CO2e,0.8,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, electricity"
+downstream_leased_construction_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_leased,construction,CO2e,0.3,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, construction"
+downstream_leased_motor_vehicles_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_leased,motor_vehicles,CO2e,0.22,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, motor vehicles"
+downstream_leased_pharmaceuticals_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_leased,pharmaceuticals,CO2e,0.15,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, pharmaceuticals"
+downstream_leased_agriculture_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,downstream_leased,agriculture,CO2e,0.5,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, agriculture"
+franchises_steel_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,franchises,steel,CO2e,0.85,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, iron & steel"
+franchises_cement_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,franchises,cement,CO2e,0.65,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, cement"
+franchises_chemicals_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,franchises,chemicals,CO2e,0.42,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, basic chemicals"
+franchises_plastics_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,franchises,plastics,CO2e,0.55,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, plastics"
+franchises_electronics_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,franchises,electronics,CO2e,0.12,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, electronic components"
+franchises_services_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,franchises,services,CO2e,0.035,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, professional services"
+franchises_machinery_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,franchises,machinery,CO2e,0.18,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, machinery"
+franchises_paper_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,franchises,paper,CO2e,0.3,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, paper"
+franchises_food_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,franchises,food,CO2e,0.75,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, food products"
+franchises_textiles_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,franchises,textiles,CO2e,0.35,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, textiles"
+franchises_mining_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,franchises,mining,CO2e,0.4,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, mining"
+franchises_transport_services_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,franchises,transport_services,CO2e,0.35,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, transport"
+franchises_electricity_supply_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,franchises,electricity_supply,CO2e,0.8,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, electricity"
+franchises_construction_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,franchises,construction,CO2e,0.3,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, construction"
+franchises_motor_vehicles_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,franchises,motor_vehicles,CO2e,0.22,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, motor vehicles"
+franchises_pharmaceuticals_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,franchises,pharmaceuticals,CO2e,0.15,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, pharmaceuticals"
+franchises_agriculture_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,franchises,agriculture,CO2e,0.5,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, agriculture"
+investments_steel_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,investments,steel,CO2e,0.85,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, iron & steel"
+investments_cement_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,investments,cement,CO2e,0.65,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, cement"
+investments_chemicals_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,investments,chemicals,CO2e,0.42,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, basic chemicals"
+investments_plastics_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,investments,plastics,CO2e,0.55,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, plastics"
+investments_electronics_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,investments,electronics,CO2e,0.12,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, electronic components"
+investments_services_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,investments,services,CO2e,0.035,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, professional services"
+investments_machinery_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,investments,machinery,CO2e,0.18,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, machinery"
+investments_paper_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,investments,paper,CO2e,0.3,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, paper"
+investments_food_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,investments,food,CO2e,0.75,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, food products"
+investments_textiles_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,investments,textiles,CO2e,0.35,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, textiles"
+investments_mining_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,investments,mining,CO2e,0.4,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, mining"
+investments_transport_services_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,investments,transport_services,CO2e,0.35,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, transport"
+investments_electricity_supply_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,investments,electricity_supply,CO2e,0.8,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, electricity"
+investments_construction_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,investments,construction,CO2e,0.3,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, construction"
+investments_motor_vehicles_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,investments,motor_vehicles,CO2e,0.22,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, motor vehicles"
+investments_pharmaceuticals_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,investments,pharmaceuticals,CO2e,0.15,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, pharmaceuticals"
+investments_agriculture_CO2e_GLOBAL_2026.1,CarbonAccounting built-in,2026.1,investments,agriculture,CO2e,0.5,kgCO₂e/USD2024,GLOBAL,AR6,2024-01-01,2030-12-31,4,0.45,"EPA USEEIO, agriculture"

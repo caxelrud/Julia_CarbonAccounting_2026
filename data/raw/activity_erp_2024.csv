@@ -1,0 +1,178 @@
+Kategorie;Werk;Kraftstoff;Verbrauch;Einheit;Zeitraum;Lieferant;Land;Datenqualität;Anmerkung
+Erdgas;SAO-01;Erdgas Kessel 1;30184;GJ;01.01.2024-31.01.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-01;Diesel Gerador;5595;L;2024-01;Petrobras;BRA;2;Frota
+Erdgas;SAO-01;Erdgas Kessel 1;27259;GJ;01.02.2024-29.02.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-01;Diesel Gerador;6416;L;2024-02;Petrobras;BRA;2;Frota
+Erdgas;SAO-01;Erdgas Kessel 1;27010;GJ;01.03.2024-31.03.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-01;Diesel Gerador;5481;L;2024-03;Petrobras;BRA;2;Frota
+Erdgas;SAO-01;Erdgas Kessel 1;22205;GJ;01.04.2024-30.04.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-01;Diesel Gerador;5874;L;2024-04;Petrobras;BRA;2;Frota
+Erdgas;SAO-01;Erdgas Kessel 1;18750;GJ;01.05.2024-31.05.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-01;Diesel Gerador;5944;L;2024-05;Petrobras;BRA;2;Frota
+Erdgas;SAO-01;Erdgas Kessel 1;19824;GJ;01.06.2024-30.06.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-01;Diesel Gerador;5775;L;2024-06;Petrobras;BRA;2;Frota
+Erdgas;SAO-01;Erdgas Kessel 1;17895;GJ;01.07.2024-31.07.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-01;Diesel Gerador;5414;L;2024-07;Petrobras;BRA;2;Frota
+Erdgas;SAO-01;Erdgas Kessel 1;16785;GJ;01.08.2024-31.08.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-01;Diesel Gerador;5999;L;2024-08;Petrobras;BRA;2;Frota
+Erdgas;SAO-01;Erdgas Kessel 1;21800;GJ;01.09.2024-30.09.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-01;Diesel Gerador;5177;L;2024-09;Petrobras;BRA;2;Frota
+Erdgas;SAO-01;Erdgas Kessel 1;22380;GJ;01.10.2024-31.10.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-01;Diesel Gerador;5950;L;2024-10;Petrobras;BRA;2;Frota
+Erdgas;SAO-01;Erdgas Kessel 1;24989;GJ;01.11.2024-30.11.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-01;Diesel Gerador;5076;L;2024-11;Petrobras;BRA;2;Frota
+Erdgas;SAO-01;Erdgas Kessel 1;31008;GJ;01.12.2024-31.12.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-01;Diesel Gerador;5391;L;2024-12;Petrobras;BRA;2;Frota
+Clinker Ofen;SAO-01;Clinker;56303;t;2024;intern;BRA;2;Prozess
+Salpetersäure;SAO-01;HNO3 Anlage;4156;t;2024;intern;BRA;2;Prozess N2O
+Refrigerante;SAO-01;R410A Nachfüllung;160.9;kg;2024;ClimaTech;BRA;2;Kaeltemaschine
+Flare;SAO-01;Fackelgas;3217303;m3(n);2024;intern;BRA;2;Fackel
+LDAR;SAO-01;Ventil Survey Q1;2480;component;2024-Q1;intern;BRA;4;LDAR Kampagne
+Erdgas;SAO-02;Erdgas Kessel 1;23015;GJ;01.01.2024-31.01.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-02;Diesel Gerador;3830;L;2024-01;Petrobras;BRA;2;Frota
+Erdgas;SAO-02;Erdgas Kessel 1;21635;GJ;01.02.2024-29.02.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-02;Diesel Gerador;4499;L;2024-02;Petrobras;BRA;2;Frota
+Erdgas;SAO-02;Erdgas Kessel 1;19957;GJ;01.03.2024-31.03.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-02;Diesel Gerador;4837;L;2024-03;Petrobras;BRA;2;Frota
+Erdgas;SAO-02;Erdgas Kessel 1;19907;GJ;01.04.2024-30.04.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-02;Diesel Gerador;4456;L;2024-04;Petrobras;BRA;2;Frota
+Erdgas;SAO-02;Erdgas Kessel 1;17146;GJ;01.05.2024-31.05.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-02;Diesel Gerador;4387;L;2024-05;Petrobras;BRA;2;Frota
+Erdgas;SAO-02;Erdgas Kessel 1;13099;GJ;01.06.2024-30.06.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-02;Diesel Gerador;3973;L;2024-06;Petrobras;BRA;2;Frota
+Erdgas;SAO-02;Erdgas Kessel 1;13341;GJ;01.07.2024-31.07.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-02;Diesel Gerador;4536;L;2024-07;Petrobras;BRA;2;Frota
+Erdgas;SAO-02;Erdgas Kessel 1;13593;GJ;01.08.2024-31.08.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-02;Diesel Gerador;4930;L;2024-08;Petrobras;BRA;2;Frota
+Erdgas;SAO-02;Erdgas Kessel 1;16477;GJ;01.09.2024-30.09.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-02;Diesel Gerador;4858;L;2024-09;Petrobras;BRA;2;Frota
+Erdgas;SAO-02;Erdgas Kessel 1;18822;GJ;01.10.2024-31.10.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-02;Diesel Gerador;4923;L;2024-10;Petrobras;BRA;2;Frota
+Erdgas;SAO-02;Erdgas Kessel 1;21731;GJ;01.11.2024-30.11.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-02;Diesel Gerador;4746;L;2024-11;Petrobras;BRA;2;Frota
+Erdgas;SAO-02;Erdgas Kessel 1;23132;GJ;01.12.2024-31.12.2024;Wintershall;BRA;2;Kesselhaus
+Frota;SAO-02;Diesel Gerador;4609;L;2024-12;Petrobras;BRA;2;Frota
+Clinker Ofen;SAO-02;Clinker;43291;t;2024;intern;BRA;2;Prozess
+Salpetersäure;SAO-02;HNO3 Anlage;3195;t;2024;intern;BRA;2;Prozess N2O
+Refrigerante;SAO-02;R410A Nachfüllung;123.7;kg;2024;ClimaTech;BRA;2;Kaeltemaschine
+Flare;SAO-02;Fackelgas;2473773;m3(n);2024;intern;BRA;2;Fackel
+LDAR;SAO-02;Ventil Survey Q1;1907;component;2024-Q1;intern;BRA;4;LDAR Kampagne
+Erdgas;HAM-01;Erdgas Kessel 1;26905;GJ;01.01.2024-31.01.2024;Wintershall;DEU;2;Kesselhaus
+Frota;HAM-01;Diesel Gerador;4126;L;2024-01;Petrobras;DEU;2;Frota
+Erdgas;HAM-01;Erdgas Kessel 1;25232;GJ;01.02.2024-29.02.2024;Wintershall;DEU;2;Kesselhaus
+Frota;HAM-01;Diesel Gerador;4644;L;2024-02;Petrobras;DEU;2;Frota
+Erdgas;HAM-01;Erdgas Kessel 1;22326;GJ;01.03.2024-31.03.2024;Wintershall;DEU;2;Kesselhaus
+Frota;HAM-01;Diesel Gerador;4587;L;2024-03;Petrobras;DEU;2;Frota
+Erdgas;HAM-01;Erdgas Kessel 1;17538;GJ;01.04.2024-30.04.2024;Wintershall;DEU;2;Kesselhaus
+Frota;HAM-01;Diesel Gerador;5055;L;2024-04;Petrobras;DEU;2;Frota
+Erdgas;HAM-01;Erdgas Kessel 1;17904;GJ;01.05.2024-31.05.2024;Wintershall;DEU;2;Kesselhaus
+Frota;HAM-01;Diesel Gerador;4229;L;2024-05;Petrobras;DEU;2;Frota
+Erdgas;HAM-01;Erdgas Kessel 1;15706;GJ;01.06.2024-30.06.2024;Wintershall;DEU;2;Kesselhaus
+Frota;HAM-01;Diesel Gerador;3964;L;2024-06;Petrobras;DEU;2;Frota
+Erdgas;HAM-01;Erdgas Kessel 1;13237;GJ;01.07.2024-31.07.2024;Wintershall;DEU;2;Kesselhaus
+Frota;HAM-01;Diesel Gerador;4247;L;2024-07;Petrobras;DEU;2;Frota
+Erdgas;HAM-01;Erdgas Kessel 1;13919;GJ;01.08.2024-31.08.2024;Wintershall;DEU;2;Kesselhaus
+Frota;HAM-01;Diesel Gerador;4816;L;2024-08;Petrobras;DEU;2;Frota
+Erdgas;HAM-01;Erdgas Kessel 1;15556;GJ;01.09.2024-30.09.2024;Wintershall;DEU;2;Kesselhaus
+Frota;HAM-01;Diesel Gerador;4522;L;2024-09;Petrobras;DEU;2;Frota
+Erdgas;HAM-01;Erdgas Kessel 1;20682;GJ;01.10.2024-31.10.2024;Wintershall;DEU;2;Kesselhaus
+Frota;HAM-01;Diesel Gerador;4887;L;2024-10;Petrobras;DEU;2;Frota
+Erdgas;HAM-01;Erdgas Kessel 1;21395;GJ;01.11.2024-30.11.2024;Wintershall;DEU;2;Kesselhaus
+Frota;HAM-01;Diesel Gerador;3976;L;2024-11;Petrobras;DEU;2;Frota
+Erdgas;HAM-01;Erdgas Kessel 1;23702;GJ;01.12.2024-31.12.2024;Wintershall;DEU;2;Kesselhaus
+Frota;HAM-01;Diesel Gerador;3971;L;2024-12;Petrobras;DEU;2;Frota
+Clinker Ofen;HAM-01;Clinker;45218;t;2024;intern;DEU;2;Prozess
+Salpetersäure;HAM-01;HNO3 Anlage;3338;t;2024;intern;DEU;2;Prozess N2O
+Refrigerante;HAM-01;R410A Nachfüllung;129.2;kg;2024;ClimaTech;DEU;2;Kaeltemaschine
+Flare;HAM-01;Fackelgas;2583878;m3(n);2024;intern;DEU;2;Fackel
+LDAR;HAM-01;Ventil Survey Q1;1992;component;2024-Q1;intern;DEU;4;LDAR Kampagne
+Erdgas;ROT-02;Erdgas Kessel 1;27182;GJ;01.01.2024-31.01.2024;Wintershall;NLD;2;Kesselhaus
+Frota;ROT-02;Diesel Gerador;5643;L;2024-01;Petrobras;NLD;2;Frota
+Erdgas;ROT-02;Erdgas Kessel 1;26471;GJ;01.02.2024-29.02.2024;Wintershall;NLD;2;Kesselhaus
+Frota;ROT-02;Diesel Gerador;5672;L;2024-02;Petrobras;NLD;2;Frota
+Erdgas;ROT-02;Erdgas Kessel 1;25918;GJ;01.03.2024-31.03.2024;Wintershall;NLD;2;Kesselhaus
+Frota;ROT-02;Diesel Gerador;5170;L;2024-03;Petrobras;NLD;2;Frota
+Erdgas;ROT-02;Erdgas Kessel 1;20860;GJ;01.04.2024-30.04.2024;Wintershall;NLD;2;Kesselhaus
+Frota;ROT-02;Diesel Gerador;4668;L;2024-04;Petrobras;NLD;2;Frota
+Erdgas;ROT-02;Erdgas Kessel 1;16968;GJ;01.05.2024-31.05.2024;Wintershall;NLD;2;Kesselhaus
+Frota;ROT-02;Diesel Gerador;4301;L;2024-05;Petrobras;NLD;2;Frota
+Erdgas;ROT-02;Erdgas Kessel 1;14614;GJ;01.06.2024-30.06.2024;Wintershall;NLD;2;Kesselhaus
+Frota;ROT-02;Diesel Gerador;4919;L;2024-06;Petrobras;NLD;2;Frota
+Erdgas;ROT-02;Erdgas Kessel 1;15326;GJ;01.07.2024-31.07.2024;Wintershall;NLD;2;Kesselhaus
+Frota;ROT-02;Diesel Gerador;4724;L;2024-07;Petrobras;NLD;2;Frota
+Erdgas;ROT-02;Erdgas Kessel 1;16592;GJ;01.08.2024-31.08.2024;Wintershall;NLD;2;Kesselhaus
+Frota;ROT-02;Diesel Gerador;4834;L;2024-08;Petrobras;NLD;2;Frota
+Erdgas;ROT-02;Erdgas Kessel 1;19897;GJ;01.09.2024-30.09.2024;Wintershall;NLD;2;Kesselhaus
+Frota;ROT-02;Diesel Gerador;5364;L;2024-09;Petrobras;NLD;2;Frota
+Erdgas;ROT-02;Erdgas Kessel 1;22087;GJ;01.10.2024-31.10.2024;Wintershall;NLD;2;Kesselhaus
+Frota;ROT-02;Diesel Gerador;4561;L;2024-10;Petrobras;NLD;2;Frota
+Erdgas;ROT-02;Erdgas Kessel 1;23247;GJ;01.11.2024-30.11.2024;Wintershall;NLD;2;Kesselhaus
+Frota;ROT-02;Diesel Gerador;5030;L;2024-11;Petrobras;NLD;2;Frota
+Erdgas;ROT-02;Erdgas Kessel 1;27884;GJ;01.12.2024-31.12.2024;Wintershall;NLD;2;Kesselhaus
+Frota;ROT-02;Diesel Gerador;4610;L;2024-12;Petrobras;NLD;2;Frota
+Clinker Ofen;ROT-02;Clinker;49733;t;2024;intern;NLD;2;Prozess
+Salpetersäure;ROT-02;HNO3 Anlage;3671;t;2024;intern;NLD;2;Prozess N2O
+Refrigerante;ROT-02;R410A Nachfüllung;142.1;kg;2024;ClimaTech;NLD;2;Kaeltemaschine
+Flare;ROT-02;Fackelgas;2841906;m3(n);2024;intern;NLD;2;Fackel
+LDAR;ROT-02;Ventil Survey Q1;2191;component;2024-Q1;intern;NLD;4;LDAR Kampagne
+Erdgas;JNB-01;Erdgas Kessel 1;31109;GJ;01.01.2024-31.01.2024;Wintershall;ZAF;2;Kesselhaus
+Frota;JNB-01;Diesel Gerador;5126;L;2024-01;Petrobras;ZAF;2;Frota
+Erdgas;JNB-01;Erdgas Kessel 1;28819;GJ;01.02.2024-29.02.2024;Wintershall;ZAF;2;Kesselhaus
+Frota;JNB-01;Diesel Gerador;5273;L;2024-02;Petrobras;ZAF;2;Frota
+Erdgas;JNB-01;Erdgas Kessel 1;26206;GJ;01.03.2024-31.03.2024;Wintershall;ZAF;2;Kesselhaus
+Frota;JNB-01;Diesel Gerador;5234;L;2024-03;Petrobras;ZAF;2;Frota
+Erdgas;JNB-01;Erdgas Kessel 1;22800;GJ;01.04.2024-30.04.2024;Wintershall;ZAF;2;Kesselhaus
+Frota;JNB-01;Diesel Gerador;4551;L;2024-04;Petrobras;ZAF;2;Frota
+Erdgas;JNB-01;Erdgas Kessel 1;20665;GJ;01.05.2024-31.05.2024;Wintershall;ZAF;2;Kesselhaus
+Frota;JNB-01;Diesel Gerador;5894;L;2024-05;Petrobras;ZAF;2;Frota
+Erdgas;JNB-01;Erdgas Kessel 1;17093;GJ;01.06.2024-30.06.2024;Wintershall;ZAF;2;Kesselhaus
+Frota;JNB-01;Diesel Gerador;5438;L;2024-06;Petrobras;ZAF;2;Frota
+Erdgas;JNB-01;Erdgas Kessel 1;17969;GJ;01.07.2024-31.07.2024;Wintershall;ZAF;2;Kesselhaus
+Frota;JNB-01;Diesel Gerador;5874;L;2024-07;Petrobras;ZAF;2;Frota
+Erdgas;JNB-01;Erdgas Kessel 1;16119;GJ;01.08.2024-31.08.2024;Wintershall;ZAF;2;Kesselhaus
+Frota;JNB-01;Diesel Gerador;5184;L;2024-08;Petrobras;ZAF;2;Frota
+Erdgas;JNB-01;Erdgas Kessel 1;21431;GJ;01.09.2024-30.09.2024;Wintershall;ZAF;2;Kesselhaus
+Frota;JNB-01;Diesel Gerador;5903;L;2024-09;Petrobras;ZAF;2;Frota
+Erdgas;JNB-01;Erdgas Kessel 1;23155;GJ;01.10.2024-31.10.2024;Wintershall;ZAF;2;Kesselhaus
+Frota;JNB-01;Diesel Gerador;5906;L;2024-10;Petrobras;ZAF;2;Frota
+Erdgas;JNB-01;Erdgas Kessel 1;24298;GJ;01.11.2024-30.11.2024;Wintershall;ZAF;2;Kesselhaus
+Frota;JNB-01;Diesel Gerador;4782;L;2024-11;Petrobras;ZAF;2;Frota
+Erdgas;JNB-01;Erdgas Kessel 1;30281;GJ;01.12.2024-31.12.2024;Wintershall;ZAF;2;Kesselhaus
+Frota;JNB-01;Diesel Gerador;5211;L;2024-12;Petrobras;ZAF;2;Frota
+Clinker Ofen;JNB-01;Clinker;53341;t;2024;intern;ZAF;2;Prozess
+Salpetersäure;JNB-01;HNO3 Anlage;3937;t;2024;intern;ZAF;2;Prozess N2O
+Refrigerante;JNB-01;R410A Nachfüllung;152.4;kg;2024;ClimaTech;ZAF;2;Kaeltemaschine
+Flare;JNB-01;Fackelgas;3048044;m3(n);2024;intern;ZAF;2;Fackel
+LDAR;JNB-01;Ventil Survey Q1;2350;component;2024-Q1;intern;ZAF;4;LDAR Kampagne
+Erdgas;SHA-03;Erdgas Kessel 1;29181;GJ;01.01.2024-31.01.2024;Wintershall;CHN;2;Kesselhaus
+Frota;SHA-03;Diesel Gerador;5543;L;2024-01;Petrobras;CHN;2;Frota
+Erdgas;SHA-03;Erdgas Kessel 1;28130;GJ;01.02.2024-29.02.2024;Wintershall;CHN;2;Kesselhaus
+Frota;SHA-03;Diesel Gerador;6412;L;2024-02;Petrobras;CHN;2;Frota
+Erdgas;SHA-03;Erdgas Kessel 1;28708;GJ;01.03.2024-31.03.2024;Wintershall;CHN;2;Kesselhaus
+Frota;SHA-03;Diesel Gerador;5496;L;2024-03;Petrobras;CHN;2;Frota
+Erdgas;SHA-03;Erdgas Kessel 1;23572;GJ;01.04.2024-30.04.2024;Wintershall;CHN;2;Kesselhaus
+Frota;SHA-03;Diesel Gerador;4941;L;2024-04;Petrobras;CHN;2;Frota
+Erdgas;SHA-03;Erdgas Kessel 1;20678;GJ;01.05.2024-31.05.2024;Wintershall;CHN;2;Kesselhaus
+Frota;SHA-03;Diesel Gerador;6238;L;2024-05;Petrobras;CHN;2;Frota
+Erdgas;SHA-03;Erdgas Kessel 1;19583;GJ;01.06.2024-30.06.2024;Wintershall;CHN;2;Kesselhaus
+Frota;SHA-03;Diesel Gerador;6250;L;2024-06;Petrobras;CHN;2;Frota
+Erdgas;SHA-03;Erdgas Kessel 1;17295;GJ;01.07.2024-31.07.2024;Wintershall;CHN;2;Kesselhaus
+Frota;SHA-03;Diesel Gerador;5504;L;2024-07;Petrobras;CHN;2;Frota
+Erdgas;SHA-03;Erdgas Kessel 1;16530;GJ;01.08.2024-31.08.2024;Wintershall;CHN;2;Kesselhaus
+Frota;SHA-03;Diesel Gerador;5134;L;2024-08;Petrobras;CHN;2;Frota
+Erdgas;SHA-03;Erdgas Kessel 1;20744;GJ;01.09.2024-30.09.2024;Wintershall;CHN;2;Kesselhaus
+Frota;SHA-03;Diesel Gerador;5560;L;2024-09;Petrobras;CHN;2;Frota
+Erdgas;SHA-03;Erdgas Kessel 1;25311;GJ;01.10.2024-31.10.2024;Wintershall;CHN;2;Kesselhaus
+Frota;SHA-03;Diesel Gerador;5868;L;2024-10;Petrobras;CHN;2;Frota
+Erdgas;SHA-03;Erdgas Kessel 1;27587;GJ;01.11.2024-30.11.2024;Wintershall;CHN;2;Kesselhaus
+Frota;SHA-03;Diesel Gerador;5908;L;2024-11;Petrobras;CHN;2;Frota
+Erdgas;SHA-03;Erdgas Kessel 1;27829;GJ;01.12.2024-31.12.2024;Wintershall;CHN;2;Kesselhaus
+Frota;SHA-03;Diesel Gerador;5714;L;2024-12;Petrobras;CHN;2;Frota
+Clinker Ofen;SHA-03;Clinker;55899;t;2024;intern;CHN;2;Prozess
+Salpetersäure;SHA-03;HNO3 Anlage;4126;t;2024;intern;CHN;2;Prozess N2O
+Refrigerante;SHA-03;R410A Nachfüllung;159.7;kg;2024;ClimaTech;CHN;2;Kaeltemaschine
+Flare;SHA-03;Fackelgas;3194233;m3(n);2024;intern;CHN;2;Fackel
+LDAR;SHA-03;Ventil Survey Q1;2462;component;2024-Q1;intern;CHN;4;LDAR Kampagne
+Wundermittel;HAM-01;Wundermittel Kessel;12.500;GJ;2024-05;Unbekannt;DEU;3;Test
+Erdgas;HAM-01;Erdgas Kessel 1;-8.000;GJ;2024-06;Wintershall;DEU;2;Negativ
+Erdgas;HAM-01;Erdgas Kessel 1;9.100;Epstein-Barrel;2024-06;Wintershall;DEU;2;Unbekannte Einheit

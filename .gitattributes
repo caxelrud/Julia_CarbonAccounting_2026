@@ -1,0 +1,21 @@
+# Normalise line endings so that the notebooks and the package stay diffable on any
+# platform: Pluto's loader expects "\n\n" cell suffixes, and mixing CRLF in would
+# make the generated printouts platform-dependent.
+*.jl      text eol=lf
+*.toml    text eol=lf
+*.md      text eol=lf
+*.py      text eol=lf
+*.yml     text eol=lf
+*.csv     text eol=lf
+*.json    text eol=lf
+*.html    text eol=lf
+*.css     text eol=lf
+
+# Binaries and generated artefacts that must not be re-encoded
+*.pdf     binary
+*.png     binary
+*.svg     text eol=lf
+*.js      -text
+
+# Build outputs are not versioned (except the released PDF in docs/)
+build/            export-ignore
