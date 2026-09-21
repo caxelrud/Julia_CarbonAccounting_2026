@@ -52,9 +52,22 @@ function render_pluto_value(x)
     elseif x isa Pair
         string(escape_html(x.first), " → ", render_pluto_value(x.second))
     else
-        escape_html(string(x))
+        s = string(x)
+        # Pluto hands strings back in their display form, quotes included; a reader of a
+        # printout wants the text, not the literal
+        length(s) > 1 && startswith(s, '"') && endswith(s, '"') && (s = chop(s; head=1, tail=1))
+        escape_html(s)
     end
 end
+
+"Pluto sometimes formats a key as `(name, MIME)` as well — take the name out of the pair."
+function pluto_key(e)
+    key = e isa Pair ? e.first : (e isa Tuple ? e[1] : e)
+    key isa Tuple && length(key) == 2 && key[2] isa MIME ? key[1] : key
+end
+
+"Pluto's counterpart of a key: the payload, be it a pair, a tuple or a bare value."
+pluto_value(e) = e isa Pair ? e.second : (e isa Tuple && length(e) == 2 ? e[2] : e)
 
 function render_pluto_object(x)
     if x isa AbstractDict && haskey(x, :rows)
@@ -74,9 +87,8 @@ function render_pluto_object(x)
         io = IOBuffer()
         println(io, "<table class=\"kv\"><tbody>")
         for e in x[:elements]
-            key = e isa Pair ? e.first : (e isa Tuple ? e[1] : "")
-            val = e isa Pair ? e.second : (e isa Tuple ? e[2] : e)
-            println(io, "<tr><th>", escape_html(key), "</th><td>", render_pluto_value(val), "</td></tr>")
+            println(io, "<tr><th>", escape_html(pluto_key(e)), "</th><td>",
+                    render_pluto_value(pluto_value(e)), "</td></tr>")
         end
         println(io, "</tbody></table>")
         return String(take!(io))
@@ -167,6 +179,10 @@ function main(names::Vector{String})
     total_err = sum(v["errored"] for v in values(results); init=0)
     println("\nprintouts in ", relpath(OUT_DIR, ROOT), "  ·  ",
             length(results), " notebook(s), ", total_err, " errored cell(s)")
+    # A notebook that produced no printout must not be quietly absent from the PDF: the
+    # document claims to be the record of an execution, so a missing record is an error.
+    failed = setdiff([splitext(basename(p))[1] for p in notebook_paths(names)], collect(keys(results)))
+    isempty(failed) || error("no printout was written for: ", join(failed, ", "))
     results
 end
 

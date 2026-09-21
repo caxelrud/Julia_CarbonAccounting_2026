@@ -233,6 +233,9 @@ function check_render(html, pages)
     leaks = length(findall("Dict{Symbol, Any}", html))
     expected = length([c for p in pages for c in p.data["cells"]
                        if startswith(string(c["mime"]), "image/")])
+    n_notebooks = length(filter(f -> endswith(f, ".jl"), readdir(joinpath(ROOT, "notebooks"))))
+    length(pages) == n_notebooks || error("$(length(pages)) printout(s) for $(n_notebooks) " *
+                                          "notebook(s) — the document would be missing one")
     leaks == 0 || error("$(leaks) raw Pluto payload(s) leaked into the printout — " *
                         "render_pluto_object should have turned them into tables")
     figures >= expected || error("$(expected) cell(s) produced an image but only " *
